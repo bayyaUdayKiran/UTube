@@ -11,7 +11,7 @@ def download_video(url):
         video_stream = yt.streams.get_highest_resolution()
 
         # Download the video to the specified output path
-        video_stream.download("../../../../../Downloads/UTube")
+        video_stream.download("UTube")
 
         print("Download completed successfully.")
     except Exception as e:
